@@ -1,2 +1,2 @@
-# scintillatingwebsite
-The official website of scintillating
+# [scintillate.me](https://scintillate.me)
+The official website of Scintillating
