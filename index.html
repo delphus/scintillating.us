@@ -5,9 +5,14 @@
   <meta charset="utf-8">
   <title>Scintillating</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="theme/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="theme/morebootstrap.css">
+  <link rel="stylesheet" href="theme/bootstrap.min.css" media="screen">
   <link rel="stylesheet" href="theme/animate.css">
+  <style>
+    .section {
+      padding-top: 50px;
+      margin-top: -50px;
+    }
+  </style>
 </head>
 
 <body>
@@ -26,13 +31,13 @@
     <div class="navbar-collapse collapse navbar-responsive-collapse">
       <ul class="nav navbar-nav">
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">FAQ</a>
+          <a href="#faq">FAQ</a>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact us
+          <a href="#contact-us" class="dropdown-toggle" data-toggle="dropdown">Contact us
             <b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
@@ -81,7 +86,7 @@
     </div>
   </nav>
   <!-- Main introduction -->
-  <main class="container">
+  <main class="container" style="margin-top: 50px">
     <header class="jumbotron fadeInDown animated page-header" id="banner">
       <h1 class="fadeInDown animatedDelay text-success">Scintillating</h1>
       <p class="fadeInLeft animatedDelay text-warning">
@@ -108,7 +113,7 @@
     </div>
 
     <!-- About Page -->
-    <section>
+    <section id="about" class="section">
       <h1>About Scintillating</h1>
       <blockquote>
         <p>Scintillating: Clever, Amusing, Exciting</p>
@@ -125,7 +130,7 @@
     </section>
 
     <!-- FAQ -->
-    <section class="clearfix">
+    <section class="section clearfix" id="faq">
       <h1>FAQ</h1>
       <p>insert glorious text here</p>
       <figure class="pull-right">
@@ -135,7 +140,7 @@
     </section>
 
     <!-- Contact us -->
-    <section>
+    <section id="contact-us" class="section">
       <h1>Contact Us</h1>
 
       <form class="well form-horizontal">
