@@ -12,7 +12,7 @@
 
 <body>
   <!-- Navbar ================================================== -->
-  <div class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
         <span class="icon-bar"></span>
@@ -79,140 +79,121 @@
         <input class="form-control col-lg-8" placeholder="Search" type="text">
       </form>
     </div>
-  </div>
+  </nav>
   <!-- Main introduction -->
-  <div class="container">
-    <div class="page-header" id="banner">
-      <div class="row">
-        <div class="jumbotron fadeInDown animated">
-          <h1 class="fadeInDown animatedDelay text-success">Scintillating</h1>
-          <h3 class="fadeInLeft animatedDelay text-warning">Expounding knowledge through the blockchain.</h3>
-          <img src="">
-          <p>At Scintillating, we work to try and solve the world's problems using the power of the blockchain. Since the dawn
-            of cryptocurrencies, they are usable as a tool for safe, open transactions.
-            <br>
-            <br>The computing power of the blockchain can be utilized to issue easier transactions from peer to peer, which is
-            quite helpful in solving multiple problems. Thus, we are trying to bring the power of the blockchain to solve
-            an everyday person's (like ourselves) problems.
-            <br>
-            <br>
-          </p>
-          <p>
-            <em>Thank you for your interest</em>
-          </p>
-        </div>
-      </div>
+  <main class="container">
+    <header class="jumbotron fadeInDown animated page-header" id="banner">
+      <h1 class="fadeInDown animatedDelay text-success">Scintillating</h1>
+      <p class="fadeInLeft animatedDelay text-warning">
+        Expounding knowledge through the blockchain.
+      </p>
+      <img src="">
+      <p>At Scintillating, we work to try and solve the world's problems using the power of the blockchain. Since the dawn of
+        cryptocurrencies, they are usable as a tool for safe, open transactions.
+      </p>
+      <p>The computing power of the blockchain can be utilized to issue easier transactions from peer to peer, which is quite
+        helpful in solving multiple problems. Thus, we are trying to bring the power of the blockchain to solve an everyday
+        person's (like ourselves) problems.
+      </p>
+      <p>
+        <em>Thank you for your interest.</em>
+      </p>
+
+    </header>
+
+
+    <div class="alert alert-warning" role="alert">
+      <strong>Warning:</strong> Scintillate.me and scintillating cryptotokens are in
+      <strong>pre-production</strong> and have not officially been released yet. Expect broken or missing functionality.
     </div>
 
     <!-- About Page -->
-    <div class="row container">
-      <div class="panel-heading row">
-        <h1>About Scintillating</h1>
-      </div>
+    <section>
+      <h1>About Scintillating</h1>
       <blockquote>
         <p>Scintillating: Clever, Amusing, Exciting</p>
-        <small>from Latin
-          <cite title="Source Title">
-            <em>scintilationem</em>
-          </cite>
-        </small>
+        <p>
+          <small>
+            from Latin
+            <cite title="Source Title">
+              <em>scintilationem</em>
+            </cite>
+          </small>
+        </p>
       </blockquote>
-      <div class="panel-body">
-        <p>insert glorious text here</p>
-      </div>
-    </div>
+      <p>insert glorious text here</p>
+    </section>
 
     <!-- FAQ -->
-    <div class="row container">
-      <div class="panel-heading row">
-        <h1>FAQ</h1>
-      </div>
-      <div class="panel-body">
-        <p>insert glorious text here</p>
-        <div class="portfolio-section">
-          <figure class="tagline-right">
-            <img src="img/lulethereum.gif" alt="lul ethereum">
-            <p>The Future is Crypto</p>
-          </figure>
-        </div>
-
-      </div>
-    </div>
+    <section class="clearfix">
+      <h1>FAQ</h1>
+      <p>insert glorious text here</p>
+      <figure class="pull-right">
+        <img src="img/lulethereum.gif" alt="lul ethereum">
+        <p>The Future is Crypto</p>
+      </figure>
+    </section>
 
     <!-- Contact us -->
-    <div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div>
-            <h1>Contact Us</h1>
-          </div>
-        </div>
-      </div>
+    <section>
+      <h1>Contact Us</h1>
 
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="well bs-component">
-            <form class="form-horizontal">
-              <fieldset>
-                <legend>Legend</legend>
-                <div class="form-group">
-                  <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-                  <div class="col-lg-10">
-                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="textArea" class="col-lg-2 control-label">Enter:</label>
-                  <div class="col-lg-10">
-                    <textarea class="form-control" rows="3" id="textArea" placeholder="Your Question here"></textarea>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="col-lg-2 control-label">Have you used our tokens before?</label>
-                  <div class="col-lg-10">
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Yes
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> No
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="tokensSelect" class="col-lg-2 control-label">Will you use our tokens? </label>
-                  <div class="col-lg-10">
-                    <br>
-                    <select multiple="" class="form-control" id="tokensSelect">
-                      <option>Yes</option>
-                      <option>Probably</option>
-                      <option>Maybe</option>
-                      <option>Probably Not</option>
-                      <option>No</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="col-lg-10 col-lg-offset-2">
-                    <button class="btn btn-default">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
+      <form class="well form-horizontal">
+        <fieldset>
+          <legend>Legend</legend>
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+          <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label">Enter:</label>
+            <div class="col-lg-10">
+              <textarea class="form-control" rows="3" id="textArea" placeholder="Your Question here"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-lg-2 control-label">Have you used our tokens before?</label>
+            <div class="col-lg-10">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked=""> Yes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> No
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="tokensSelect" class="col-lg-2 control-label">Will you use our tokens? </label>
+            <div class="col-lg-10">
+              <br>
+              <select multiple="" class="form-control" id="tokensSelect">
+                <option>Yes</option>
+                <option>Probably</option>
+                <option>Maybe</option>
+                <option>Probably Not</option>
+                <option>No</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+              <button class="btn btn-default">Cancel</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </section>
     <footer>
-      <div class="active">
-        <p>&copy; Kunal Sharda and StuckAtHome 2017-Present</p>
-      </div>
+      <p>&copy; Kunal Sharda and StuckAtHome 2017-Present</p>
     </footer>
-  </div>
+  </main>
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="bootstrap/bootstrap.min.js"></script>
   <script src="bootstrap/morebootstrap.js"></script>
