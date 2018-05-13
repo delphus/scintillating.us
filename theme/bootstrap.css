@@ -270,7 +270,7 @@ body {
   font-size: 15px;
   line-height: 1.42857143;
   color: #ffffff;
-  background-color: #222222;
+  background-color: #060606;
 }
 input,
 button,
@@ -5995,3 +5995,8 @@ textarea:focus {
   width:50%;
   text-align:center;
 }
+.caption {
+  display: block;
+}
+
+
