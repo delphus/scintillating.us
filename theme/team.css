@@ -1,196 +1,197 @@
 .team-title {
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    margin-top: 18px;
-    margin-bottom: 30px;
-    font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+  .team-title {
+    margin-bottom: 40px;
   }
-  
-  @media screen and (max-width: 375px) {
-    .team-title {
-      margin-bottom: 40px;
-    }
-  }
-  
-  .team-members-row {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-    justify-content: center;
-    max-width: 1520px;
-    /*    @include tablet-xl{
+}
+
+.team-members-row {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  max-width: 1520px;
+  /*    @include tablet-xl{
         max-width: 880px;
         padding: 0 1%;
       }
       @include mobile-lg{
         justify-content: center;
       }*/
+}
+
+@media screen and (max-width: 1680px) {
+  .team-members-row {
+    max-width: none;
   }
-  
-  @media screen and (max-width: 1680px) {
-    .team-members-row {
-      max-width: none;
-    }
-  }
-  
-  .team-member {
-    padding: 0 0 115px 0;
-  }
-  
-  .team-member ul {
-    margin-bottom: 0px;
-  }
-  
-  .team-member li {
-    text-align: left;
-    list-style-type: square;
-  }
-  
-  .team .section-wrapper {
-    padding-bottom: 0;
-  }
-  
+}
+
+.team-member {
+  padding: 0 0 115px 0;
+}
+
+.team-member ul {
+  margin-bottom: 0px;
+}
+
+.team-member li {
+  text-align: left;
+  list-style-type: square;
+}
+
+.team .section-wrapper {
+  padding-bottom: 0;
+}
+
+.member {
+  width: 300px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+@media screen and (max-width: 1680px) {
   .member {
-    width: 300px;
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    margin: 0 15px;
+    margin: 0 5px;
   }
-  
-  @media screen and (max-width: 1680px) {
-    .member {
-      margin: 0 5px;
-    }
+}
+
+@media screen and (max-width: 1024px) {
+  .member {
+    margin: 0 58px;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .member {
-      margin: 0 58px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .member {
+    margin: 0 0 20px 0;
   }
-  
-  @media screen and (max-width: 768px) {
-    .member {
-      margin: 0 0 20px 0;
-    }
-  }
-  
-  .member-figure {
-    position: relative;
-  }
-  
-  .member-img {
-    width: 100%;
-  }
-  
-  .member-img-wrap {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .member-linkedin {
-    position: absolute;
-    bottom: 0;
-    right: 24px;
-    /*    @include tablet-xl{
+}
+
+.member-figure {
+  position: relative;
+}
+
+.member-img {
+  width: 100%;
+  height: 100%;
+}
+
+.member-img-wrap {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.member-linkedin {
+  position: absolute;
+  bottom: 0;
+  right: 24px;
+  /*    @include tablet-xl{
         right: 0;
       }*/
-  }
-  
-  .member-text-container {
-    width: 100%;
-    padding-top: 29px;
-    text-align: center;
-    height: 100%;
-  }
-  
-  .member-title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-  }
-  
-  .member-title-surname {
-    display: block;
-  }
-  
-  .member-subtitle {
-    font-size: 14px;
-    margin-bottom: 25px;
-    font-weight: 700;
-    color: #f39c12;
-  }
-  
-  .member-list {
-    list-style: none;
-    padding: 0 32px;
-    /*    @include tablet-xl{
+}
+
+.member-text-container {
+  width: 100%;
+  padding-top: 29px;
+  text-align: center;
+  height: 100%;
+}
+
+.member-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.member-title-surname {
+  display: block;
+}
+
+.member-subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #f39c12;
+}
+
+.member-list {
+  list-style: none;
+  padding: 0 32px;
+  /*    @include tablet-xl{
         padding: 0;
       }*/
-  }
-  
-  .member-list li {
-    font-size: 14px;
-    color: #fff;
-    margin-bottom: 15px;
-  }
-  
-  .member-list li:last-child {
-    margin-bottom: 0;
-  }
-  
-  .member-company {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 120px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  
-  .member-company a {
-    display: block;
-    margin-bottom: 20px;
-  }
-  
-  .member-company a:last-child {
-    margin-bottom: 0;
-  }
-  
-  .member-container {
-    text-align: center;
-  }
-  
+}
+
+.member-list li {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.member-list li:last-child {
+  margin-bottom: 0;
+}
+
+.member-company {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.member-company a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.member-company a:last-child {
+  margin-bottom: 0;
+}
+
+.member-container {
+  text-align: center;
+}
+
+.member-btn {
+  display: inline-block;
+  background: #fff;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0 auto 0 auto;
+  min-width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
   .member-btn {
-    display: inline-block;
-    background: #fff;
-    color: #fff;
-    text-transform: capitalize;
-    margin: 0 auto 0 auto;
-    min-width: 250px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 50px;
-    text-align: center;
-    padding: 0 20px;
+    font-size: 17px;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .member-btn {
-      font-size: 17px;
-    }
-  }
+}
