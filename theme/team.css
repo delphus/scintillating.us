@@ -129,6 +129,13 @@
   color: #f39c12;
 }
 
+.advisory-subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: blue;
+}
+
 .member-list {
   list-style: none;
   padding: 0 32px;
