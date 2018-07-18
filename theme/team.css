@@ -129,11 +129,18 @@
   color: #f39c12;
 }
 
+.mmember-subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #74150B;
+}
+
 .advisory-subtitle {
   font-size: 14px;
   margin-bottom: 25px;
   font-weight: 700;
-  color: #0000FF;
+  color: #137DC5;
 }
 
 .member-list {
