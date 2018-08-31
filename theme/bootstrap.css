@@ -3922,7 +3922,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-text {
     float: left;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 15px; 
   }
   .navbar-text.navbar-right:last-child {
     margin-right: 0;
