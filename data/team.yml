@@ -21,15 +21,14 @@ teamMember :
       
   - image : images/team/Kunal.jpg
     name : Kunal Sharda
-    designation : Chief Executive Officer & Visionary
+    designation : Chief Executive Officer · Visionary
     description :
-      - Introduced to Ethereum and the blockchain in 2015
-      - Free software and decentralization advocate
-      - Worked with a Kubernetes cluster used to scale web servers
-      - Experienced in React, Redux, and Solidity
+      - Experienced through startups and business plan competitions
+      - Has multiple certifications in programming across different frameworks
+      - Competed in the National Circuit for Public Speaking
+      - Avidly interested in medical technology and computer science, which fueled his ideas behind Delphus
     socialIcon :
       - icon : tf-ion-social-facebook
       - icon : tf-ion-social-twitter
       - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
-      
+        link: https://www.linkedin.com/in/kunal-sharda/
