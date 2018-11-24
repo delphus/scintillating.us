@@ -33,7 +33,9 @@
                     <div class="member-meta">
                         <h4>{{ .name }}</h4>
                         <span>{{ .designation }}</span>
-                        <p>{{ .description }}</p>
+                        {{ range .description }}
+                        <p>{{ . }}</p>
+                        {{ end }}
                     </div>
                 </div>
             </div>
