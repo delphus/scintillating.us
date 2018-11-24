@@ -1,7 +1,7 @@
 enable : true
 image : images/about/about-business-man.jpg
-title : We’re A Digital Design Agency.
-description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+title : Expounding knowledge through the blockchain.
+description : Leveraging the strengths of the blockchain, we solve persistent issues, including scientific study reliability and funding. 
 description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
 aboutItem : 
   - icon : tf-circle-compass

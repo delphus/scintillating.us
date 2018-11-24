@@ -23,7 +23,7 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBk
     # call to action
     [params.cta]
     enable = true
-    title = "Great Design & Incredible Features"
+    title = "Contact Us"
     content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
     btnURL = "#"
     btnText = "Start a project with us"
