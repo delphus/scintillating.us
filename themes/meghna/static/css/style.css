@@ -12,13 +12,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 
 html {
   background-color: #353b43;
-  color: #737f8a;
+  color: #DDD;
 }
 
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #DDD;
   -webkit-font-smoothing: antialiased;
 }
 

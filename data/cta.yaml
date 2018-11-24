@@ -1,0 +1,7 @@
+enable: true
+title: Contact Us
+content: |
+
+btnText: Get in Touch
+btnURL: CTA
+bgImage: images/bg-white.png
