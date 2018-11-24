@@ -9,49 +9,6 @@ home= "Home"
 logo = "images/logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/titlebg.jpg"
-    icon = "tf-ion-radio-waves"
-    heading = "Scintillating"
-    content= "At Scintillating, we solve real problems using the power of the blockchain. While cryptocurrencies may not be the perfect fit for every issue, they excel at safe, transparent, and trustable transactions that cannot be altered or replaced."
-    btn = true
-    btnText="Explore Us"
-    btnURL="#about"
-
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Contact Us"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
-
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
-    
     # footer
     [params.footer]
         copyright = "Scintillating"
