@@ -1,0 +1,5 @@
+baseURL = "https://scintillating.us"
+languageCode = "en-us"
+title = "Scintillating"
+
+theme = "meghna"
