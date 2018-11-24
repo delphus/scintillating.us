@@ -5,59 +5,31 @@ teamMember :
   - image : images/team/Kevin.jpg
     name : Kevin Liu
     designation : Chief Technology Officer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    description :
+      - Introduced to Ethereum and the blockchain in 2015
+      - Free software and decentralization advocate
+      - Worked with a Kubernetes cluster used to scale web servers
+      - Experienced in React, Redux, and Solidity
+
     socialIcon :
       - icon : tf-ion-social-facebook
+        link: https://www.facebook.com/pneumaticat
       - icon : tf-ion-social-twitter
+        link: https://fedi.potatofrom.space/@kevin
       - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
+        link: https://www.linkedin.com/in/the-kevin-liu/
       
   - image : images/team/Kunal.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    name : Kunal Sharda
+    designation : Chief Executive Officer & Visionary
+    description :
+      - Introduced to Ethereum and the blockchain in 2015
+      - Free software and decentralization advocate
+      - Worked with a Kubernetes cluster used to scale web servers
+      - Experienced in React, Redux, and Solidity
     socialIcon :
       - icon : tf-ion-social-facebook
       - icon : tf-ion-social-twitter
       - icon : tf-ion-social-linkedin
       - icon : tf-ion-social-dribbble-outline
       
-  - image : images/team/team-2.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-      - icon : tf-ion-social-twitter
-      - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
-      
-  - image : images/team/team-2.jpg
-    name : Frank Miller
-    designation : Manager
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-      - icon : tf-ion-social-twitter
-      - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
-      
-  - image : images/team/team-3.jpg
-    name : Michael Jonson
-    designation : Web Developer
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-      - icon : tf-ion-social-twitter
-      - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
-      
-  - image : images/team/team-4.jpg
-    name : Mo. Kha. Alamgir
-    designation : SEO Specialist
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    socialIcon :
-      - icon : tf-ion-social-facebook
-      - icon : tf-ion-social-twitter
-      - icon : tf-ion-social-linkedin
-      - icon : tf-ion-social-dribbble-outline
