@@ -12,10 +12,6 @@ teamMember :
       - Experienced in React, Redux, and Solidity
 
     socialIcon :
-      - icon : tf-ion-social-facebook
-        link: https://www.facebook.com/pneumaticat
-      - icon : tf-ion-social-twitter
-        link: https://fedi.potatofrom.space/@kevin
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/the-kevin-liu/
       
@@ -28,7 +24,62 @@ teamMember :
       - Competed in the National Circuit for Public Speaking
       - Avidly interested in medical technology and computer science, which fueled his ideas behind Delphus
     socialIcon :
-      - icon : tf-ion-social-facebook
-      - icon : tf-ion-social-twitter
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/kunal-sharda/
+
+  - image : images/team/Will.jpg
+    name : Will Hemond
+    designation : Chief Operating Officer
+    description :
+      - Has a constant passion for all things technology, math, and science
+      - Heard of cryptocurrency and was initially skeptical, but grew intrigued over time.
+      - Worked in management positions and is ideal for internal operations
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/william-hemond-a33a3715a/
+  - image : images/team/Aneesh.jpg
+    name :  Aneesh Edara 
+    designation : VP of Finance
+    description :
+      - Substantially interested in blockchain and machine learning
+      - Experienced in numbers and schema his entire life
+      - Has worked on a variety of products, using his skills to create a noticeable difference in one's life
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/aneesh-edara-a855a6159/
+  - image : images/team/Dylan.jpg
+    name : Dylan Kim
+    designation : VP of Product Management
+    description :
+      - Avidly interested in product design and execution
+      - Hosted programming lessons for local children, and an active member of the local robotics team.
+      - Discovered the extensive possibiities of the Blockchain and is helping on one such innovation
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/sungho-kim-77a5bb163/
+  - image : images/team/Aviral.jpg
+    name : Aviral Mishra
+    designation : VP of Marketing
+    description :
+      - Nationally ranked at both speech and debate
+      - Successfully pitched distributed applications at several hackathons
+      - Committed to creating data transparency using the blockchain
+
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/aviral-mishra-4a176a162/
+  - image : images/team/Tiger.png
+    name : Tiger Tian
+    designation : Head of Technology
+    description :
+      - A technology enthusiast with an aptitude for programming
+      - Experienced in managing both large and small teams
+
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/tiger-tian-139479160/

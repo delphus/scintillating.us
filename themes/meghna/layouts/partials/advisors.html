@@ -1,20 +1,20 @@
-{{ if .Site.Data.team.enable}}
-{{"<!-- Start Our Team -->" | safeHTML}}
-<section id="our-team" class="section">
+{{ if .Site.Data.advisor.enable}}
+{{"<!-- Start Our Advisors -->" | safeHTML}}
+<section id="advisors" class="section">
     <div class="container">
         <div class="row">
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.team.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.team.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.advisor.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.advisor.headingSpan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
-            {{ range .Site.Data.team.teamMember}}
-            {{"<!-- team member -->" | safeHTML}}
-            <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown"data-wow-duration="500ms">
-                <div class="team-member" style="height: 600px">
+            {{ range .Site.Data.advisor.advisorMember}}
+            {{"<!-- advisor member -->" | safeHTML}}
+            <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
+                <div class="team-member">
                     <div class="member-photo">
                         {{"<!-- member photo -->" | safeHTML}}
                         <img class="img-responsive" width="100%" src="{{ .image | absURL }}" alt="Meghna">
@@ -39,10 +39,10 @@
                     </div>
                 </div>
             </div>
-            {{"<!-- end team member -->" | safeHTML}}
+            {{"<!-- end advisor member -->" | safeHTML}}
             {{ end }}
         </div>
     </div>
 </section>
-{{"<!-- /team -->" | safeHTML}}
+{{"<!-- /advisor -->" | safeHTML}}
 {{ end }}

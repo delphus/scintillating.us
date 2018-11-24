@@ -1,0 +1,51 @@
+enable : true
+heading : Mentors
+headingSpan : and Advisors
+advisorMember:
+  - image : images/advisor/Satish.jpg
+    name : Satish
+    designation : Mentorship and Guidance
+    description :
+      - Invaluable experience which consistently aids market focus
+      - Industry leader specializing in life sciences and healthcare
+      - Extremely well-connected among global corporations
+
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/satish-tadikonda-195611108/
+      
+  - image : images/advisor/Sunil.jpg
+    name : Sunil Ravipati
+    designation : Mentorship and Guidance
+    description :
+      - Worked in startups such as BEA and Alum.ni. Held top position at Oracle
+      - Involved with security, blockchain as well as bootstrapped a SaaS based CTM
+      - Not only brings technical, engineering, sales and leadership skills but also an ability to connect with people to bring success as a team
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/sunilravipati/
+
+  - image : images/advisor/Pillar.jpg
+    name : Pillar VC
+    designation : Mentorship through MIT
+    description :
+      - Aligns incentives and interests and aligning capabilities with needs
+      - Delivers the breadth and depth of experience
+      - Gathered a dream team of unbelievably talented CEOs as co-founders
+
+    socialIcon :
+      - icon : tf-ion-link
+        link: https://pillar.vc/
+
+  - image : images/advisor/Mintz-Levin.png
+    name : Mintz Levin
+    designation : Legal Advisory Term
+    description :
+      - Full service, general law firm with more than 500 attorneys and 8 offices
+      - Internationally based in the United States and the UK
+
+    socialIcon :
+      - icon : tf-ion-link
+        link: https://mintz.com/
