@@ -816,11 +816,11 @@ a:hover {
 
 .contact-form input:hover,
 .contact-form textarea:hover,
-#contact-submit:hover {
+.contact-submit:hover {
   border-color: #57cbcc;
 }
 
-#contact-submit {
+.contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: #57cbcc;
   padding: 12px 0;

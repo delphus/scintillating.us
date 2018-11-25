@@ -1,0 +1,14 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact Details
+content : We are a Boston-based company.
+mapLatitude : 42.361145 # Boston
+mapLongitude: -71.057083
+contactDetails :
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: +1 (978) 631-5593"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: info@scintillating.us"
+    

@@ -3,5 +3,5 @@ title: Contact Us
 content: |
 
 btnText: Get in Touch
-btnURL: CTA
+btnURL: "#contact-us"
 bgImage: images/bg-white.png
