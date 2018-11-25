@@ -20,7 +20,7 @@
         <div class="contact-details">
           {{ range.Site.Data.contact.contactDetails }}
           <div class="con-info clearfix">
-            <i class="{{ .icon }}"></i> <span>{{ .info }}</span>
+            <i class="{{ .icon }}"></i> <span>{{ .info | safeHTML }}</span>
           </div>
           {{ end }}
         </div>
