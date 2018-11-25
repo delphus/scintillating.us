@@ -4,6 +4,38 @@ title = "Scintillating"
 
 theme = "meghna"
 
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Delphus"
+    URL = "#about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "News"
+    URL = "#news"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "#our-team"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Advisors"
+    URL = "#advisors"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "#contact-us"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "https://blog.scintillating.us"
+    weight = 7
+
 [params]
 home= "Home"
 logo = "images/logo.png"
