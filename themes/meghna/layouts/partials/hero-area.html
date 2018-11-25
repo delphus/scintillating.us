@@ -1,6 +1,6 @@
 {{ if .Site.Data.banner.enable }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
+<section class="hero-area" style='background-image: url("{{ .Site.Data.banner.bgImage | absURL }}");'>
     <div class="block">
         <div class="video-button">
            {{with .Site.Data.banner.icon}} <i class="{{ . }}"></i> {{ end }}
