@@ -1,0 +1,36 @@
+{{ if .Site.Data.news.enable}}
+<section class="bg-one news section" id="news">
+  <div class="container">
+    <div class="row">
+      <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+        <h2>
+          {{ .Site.Data.news.heading}}
+          <span class="color">{{ .Site.Data.news.headingSpan}}</span>
+        </h2>
+        <div class="border"></div>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="as-seen-in text-center wow fadeIn">
+        {{ range .Site.Data.news.asSeenIn }}
+        <li><a href="{{ .url }}"><img height="{{ .height }}" src="{{ .image }}" alt="{{ .name }}"></a></li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="row">
+      {{ range.Site.Data.news.newsItem }}
+      <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms">
+        <div class="block">
+          <div class="content text-center">
+            <p>{{ .content | safeHTML }}</p>
+            <p>
+              — <a href="{{ .sourceUrl }}">{{ .source }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
