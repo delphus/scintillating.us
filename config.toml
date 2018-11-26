@@ -1,6 +1,7 @@
 baseURL = "https://scintillating.us"
 languageCode = "en-us"
 title = "Scintillating"
+description = "Empowering distributed technology."
 
 theme = "meghna"
 
@@ -45,6 +46,10 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBk
     [params.footer]
         copyright = "Scintillating"
         copyrightURL = "https://scintillating.us"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/groups/2120872521296834/"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-twitter"
