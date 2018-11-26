@@ -46,24 +46,14 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBk
         copyright = "Scintillating"
         copyrightURL = "https://scintillating.us"
 
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-twitter"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
+        url = "https://twitter.com/@DelphusDapp"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
-        
+        url = "https://www.linkedin.com/company/scintillating/"
+
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
+        icon = "tf-ion-chatbubbles"
+        url = "https://discord.gg/Xst7TR3"
