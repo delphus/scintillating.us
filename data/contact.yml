@@ -7,7 +7,7 @@ mapLatitude : 42.361145 # Boston
 mapLongitude: -71.057083
 contactDetails :
   - icon : tf-ion-ios-telephone-outline
-    info : 'Phone: <a href="tel:+19782061411">+1 (978) 206-1411</a>'
+    info : 'Phone: <a href="tel:+19787954022">+1 (978) 795-4022</a>'
     
   - icon : tf-ion-ios-email-outline
     info : 'Email: <a href="mailto:info@scintillating.us">info@scintillating.us</a>'
