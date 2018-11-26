@@ -1,12 +1,12 @@
-{{ if .Site.Params.cta.enable}}
+{{ if .Site.Data.cta.enable}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
-<section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
+<section class="call-to-action section-sm bg-1 overly" style='background: url("{{ .Site.Data.cta.bgImage | absURL }}")'>
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-               {{ with .Site.Params.cta.title}} <h2>{{ . }}</h2> {{ end }}
-               {{ with .Site.Params.cta.content }} <p>{{ . }}</p> {{ end }}
-                <a href="{{ .Site.Params.cta.btnURL }}" class="btn btn-main">{{ with .Site.Params.cta.btnText }} {{ . }} {{end}}</a>
+               {{ with .Site.Data.cta.title}} <h2>{{ . }}</h2> {{ end }}
+               {{ with .Site.Data.cta.content }} <p>{{ . }}</p> {{ end }}
+                <a href="{{ .Site.Data.cta.btnURL }}" class="btn btn-main">{{ with .Site.Data.cta.btnText }} {{ . }} {{end}}</a>
             </div>
         </div>
     </div>

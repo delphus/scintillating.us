@@ -13,17 +13,17 @@
 
             {{ range .Site.Data.team.teamMember}}
             {{"<!-- team member -->" | safeHTML}}
-            <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member">
+            <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown"data-wow-duration="500ms">
+                <div class="team-member" style="height: 600px">
                     <div class="member-photo">
                         {{"<!-- member photo -->" | safeHTML}}
-                        <img class="img-responsive" src="{{ .image | absURL }}" alt="Meghna">
+                        <img class="img-responsive" width="100%" src="{{ .image | absURL }}" alt="Image">
 
                         {{"<!-- member social profile -->" | safeHTML}}
                         <div class="mask">
                             <ul class="list-inline">
                                 {{ range .socialIcon }}
-                                <li><a href="#"><i class="{{ .icon }}"></i></a></li>
+                                <li><a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
                                 {{ end }}
                             </ul>
                         </div>
@@ -33,7 +33,9 @@
                     <div class="member-meta">
                         <h4>{{ .name }}</h4>
                         <span>{{ .designation }}</span>
-                        <p>{{ .description }}</p>
+                        {{ range .description }}
+                        <p>{{ . }}</p>
+                        {{ end }}
                     </div>
                 </div>
             </div>

@@ -1,0 +1,16 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact details
+content : We are a Boston-based company.
+mapLatitude : 42.361145 # Boston
+mapLongitude: -71.057083
+contactDetails :
+  - icon : tf-ion-ios-telephone-outline
+    info : 'Phone: <a href="tel:+19782061411">+1 (978) 206-1411</a>'
+    
+  - icon : tf-ion-ios-email-outline
+    info : 'Email: <a href="mailto:info@scintillating.us">info@scintillating.us</a>'
+    
+  - icon: tf-ion-ios-chatbubble-outline
+    info: <a href="https://discord.gg/Xst7TR3" target="_blank">Join our Discord</a>

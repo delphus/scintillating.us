@@ -1,0 +1,64 @@
+baseURL = "https://scintillating.us"
+languageCode = "en-us"
+title = "Scintillating"
+description = "Empowering distributed technology."
+
+theme = "meghna"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Delphus"
+    URL = "#about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "News"
+    URL = "#news"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "#our-team"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Advisors"
+    URL = "#advisors"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "#contact-us"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "https://blog.scintillating.us"
+    weight = 7
+
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
+
+    # footer
+    [params.footer]
+        copyright = "Scintillating"
+        copyrightURL = "https://scintillating.us"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/groups/2120872521296834/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/@DelphusDapp"
+        
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/company/scintillating/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-chatbubbles"
+        url = "https://discord.gg/Xst7TR3"

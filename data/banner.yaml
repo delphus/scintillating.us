@@ -1,0 +1,8 @@
+enable: true
+bgImage: "images/titlebg.jpg"
+icon: "images/logo.png"
+heading: "Scintillating"
+content: "Empowering Distributed Technology"
+btn: true
+btnText: "Explore Us"
+btnURL: "#about"
