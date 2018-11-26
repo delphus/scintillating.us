@@ -1,6 +1,6 @@
 enable: true
 bgImage: "images/titlebg.jpg"
-icon: "images/logo.ico"
+icon: "images/logo.png"
 heading: "Scintillating"
 content: "Empowering Distributed Technology"
 btn: true
