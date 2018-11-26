@@ -2054,4 +2054,11 @@ blockquote {
   margin: 0;
 }
 
+.trimmed-logo {
+  height: auto; 
+  width: auto; 
+  max-width: 1px; 
+  max-height: 1px;
+}
+
 /*# sourceMappingURL=maps/style.css.map */
