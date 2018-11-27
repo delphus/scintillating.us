@@ -13,7 +13,7 @@
     <div class="row">
       <ul class="as-seen-in text-center wow fadeIn">
         {{ range .Site.Data.news.asSeenIn }}
-        <li><a href="{{ .url }}"><img class="img-responsive" height="{{ .height }}" src="{{ .image }}" alt="{{ .name }}"></a></li>
+        <li><a href="{{ .url }}"><img class="img-responsive" style="max-height: {{ .height }}px" src="{{ .image }}" alt="{{ .name }}"></a></li>
         {{ end }}
       </ul>
     </div>
