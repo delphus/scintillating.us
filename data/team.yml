@@ -72,3 +72,14 @@ teamMember :
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/tiger-tian-139479160/
+        
+  - image : images/team/Eric.png
+    name : Eric Son
+    designation : Head of Technology
+    description :
+      - A technology enthusiast with an aptitude for programming
+      - Experienced in managing both large and small teams
+
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
