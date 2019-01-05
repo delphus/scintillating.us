@@ -39,17 +39,7 @@ teamMember :
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/william-hemond-a33a3715a/
-  - image : images/team/Aneesh.jpg
-    name :  Aneesh Edara 
-    designation : VP of Finance
-    description :
-      - Substantially interested in blockchain and machine learning
-      - Experienced in numbers and schema his entire life
-      - Has worked on a variety of products, using his skills to create a noticeable difference in one's life
-
-    socialIcon :
-      - icon : tf-ion-social-linkedin
-        link: https://www.linkedin.com/in/aneesh-edara-a855a6159/
+        
   - image : images/team/Dylan.jpg
     name : Dylan Kim
     designation : VP of Product Management
@@ -75,7 +65,7 @@ teamMember :
         
   - image : images/team/Eric.jpg
     name : Eric Sun
-    designation : Head of Technology
+    designation : Marketing and Quality Assurance Manager
     description :
       - Drawn to computer science by bioinformatics
       - Uses insight from winning Fermi questions at nationals to actively judge the needs of a growing company
