@@ -50,7 +50,7 @@ teamMember :
 
     socialIcon :
       - icon : tf-ion-social-linkedin
-        link: https://www.linkedin.com/in/aviral-mishra-4a176a162/
+        link: https://www.linkedin.com/in/sungho-kim-77a5bb163/
   - image : images/team/Tiger.png
     name : Tiger Tian
     designation : Head of Technology
@@ -73,3 +73,4 @@ teamMember :
 
     socialIcon :
       - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/eric-sun-5318b4169/
