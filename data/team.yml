@@ -47,10 +47,18 @@ teamMember :
       - Avidly interested in product design and execution
       - Hosted programming lessons for local children, and an active member of the local robotics team.
       - Discovered the extensive possibiities of the Blockchain and is helping on one such innovation
+        
+  - image : images/team/Aneesh.jpg
+    name : Aneesh Edara
+    designation : VP of Finance
+    description :
+      -  Substantially interested in blockchain and machine learning
+      - Experienced in numbers and schema his entire life
+      - Has worked on a variety of products, using his skills to create a noticeable difference in one's life
 
     socialIcon :
       - icon : tf-ion-social-linkedin
-        link: https://www.linkedin.com/in/sungho-kim-77a5bb163/
+        link: https://www.linkedin.com/in/aneesh-edara-a855a6159/
   - image : images/team/Tiger.png
     name : Tiger Tian
     designation : Head of Technology
