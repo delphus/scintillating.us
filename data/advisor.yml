@@ -9,11 +9,20 @@ advisorMember:
       - Invaluable experience which consistently aids market focus
       - Industry leader specializing in life sciences and healthcare
       - Extremely well-connected among global corporations
-
-
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/satish-tadikonda-195611108/
+
+  - image : images/advisor/Chris.png
+    name : Chris Vento
+    designation : Mentorship and Guidance
+    description :
+      - C-Level Technology and Product Strategist at Innoverify
+      - Previous founder & CEO of Intellify Learning
+      - Innovative and skilled in leadership positions
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/cvento/
       
   - image : images/advisor/Sunil.jpg
     name : Sunil Ravipati
