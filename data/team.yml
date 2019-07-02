@@ -1,4 +1,4 @@
-enable : true
+﻿enable : true
 heading : Our
 headingSpan : Team
 teamMember :
@@ -82,3 +82,15 @@ teamMember :
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/eric-sun-5318b4169/
+
+  - image : images/team/Dora.jpg
+    name : Dora Xiao
+    designation : [Designation]
+    description :
+      - Adores all forms of creative design processes from game design to mechanical engineering
+      - Trained in a variety of programming and web languages
+      - Has firsthand experience with research collection projects to understand study demands
+
+    socialIcon :
+      - icon : tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/dora-xiao-b97028189/
