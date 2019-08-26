@@ -2,11 +2,11 @@ enable : true
 image : images/delphus.png
 title : Introducing Delphus
 description : |
-  <p><strong>Introducing our flagship product: Delphus</strong>, a far more advanced scientific study managment system powered by the Ethereum blockchain. Previously known as reBlock, it aims to solve large issues with data tamperability and regulation of studies.</p>
+  <p><strong>Introducing our flagship product: Delphus</strong>, a platform for trust and compliance powered by the Ethereum blockchain. Previously known as reBlock, the current iteration of our product targets research inefficiency through a secure, decentralized study management platform.</p>
 
-  <p>Clinical and research studies serve to validate strategies, treatments, and devices to prove they are beneficial to humans. They open the pathway for innovation and an understanding of new diseases or methods. Unfortunately, innovation in the methods used to run these studies has stagnated.</p>
+  <p>Using the blockchain, Delphus immutably timestamps and records all consent and data points to provide transparency at every step. It stores data on a network of servers around the world, preserving data accessibility and allowing control on a per-site and per-investigator basis. This makes research auditable and verifiable, saving trust, time, and money.</p>
   
-  <p>Delphus aims to cut down on these extraneous costs and innovate this area. Check out the <a href="https://delph.us">website</a> to learn more, and see our future plans.</p>
+  <p>Delphus aims to innovate this area, and expand outwards from there. Check out the <a href="https://delph.us">website</a> to learn more.</p>
 aboutItem : 
   - icon : tf-ion-lock-combination
     title : Transparent & Secure Research
