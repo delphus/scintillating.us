@@ -4,7 +4,7 @@ headingSpan: and Advisors
 advisorMember:
   - image: images/advisor/Satish.jpg
     name: Satish Tadikonda
-    designation: Mentorship and Guidance
+    designation: Healthcare Mentorship and Guidance
     description:
       - Invaluable experience which consistently aids market focus
       - Industry leader specializing in life sciences and healthcare
@@ -15,7 +15,7 @@ advisorMember:
 
   - image: images/advisor/Chris.png
     name: Chris Vento
-    designation: Mentorship and Guidance
+    designation: Technical Mentorship and Guidance
     description:
       - C-Level Technology and Product Strategist at Innoventify
       - Previous founder & CEO of Intellify Learning
@@ -26,18 +26,17 @@ advisorMember:
 
   - image: images/advisor/Jim.jpg
     name: Jim Yim
-    designation: Mentorship and Guidance
+    designation: Healthcare Mentorship and Guidance
     description:
       - Investor and entrepreneur involved in numerous successful startups
       - CEO of Medtricbio, an antimicrobial technology company
       - Judge at the Rice University Business Plan Competition, prominent angel investor
     socialIcon:
       - icon: tf-ion-social-linkedin
-        link: https://www.linkedin.com/in/cvento/
 
   - image: images/advisor/Sunil.jpg
     name: Sunil Ravipati
-    designation: Mentorship and Guidance
+    designation: Technical Mentorship and Guidance
     description:
       - Worked in startups such as BEA and Alum.ni. Held top position at Oracle
       - Involved with security, blockchain as well as bootstrapped a SaaS based CTM
@@ -46,6 +45,18 @@ advisorMember:
     socialIcon:
       - icon: tf-ion-social-linkedin
         link: https://www.linkedin.com/in/sunilravipati/
+
+  - image: images/advisor/Ashwani.png
+    name: Ashwani Verma
+    designation: Compliance Mentorship and Guidance
+    description:
+      - 20+ years of experience in auditing across multiple verticals
+      - Worked at Deloitte, PwC and Molina Healthcare among others
+      - Compliance and Risk Management Expert
+
+    socialIcon:
+      - icon: tf-ion-social-linkedin
+        link: https://www.linkedin.com/in/satish-tadikonda-195611108/
 
   - image: images/advisor/Pillar.jpg
     name: Pillar VC

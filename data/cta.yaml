@@ -1,7 +1,6 @@
 enable: true
-title: Contact Us
-content: |
 
-btnText: Get in Touch
-btnURL: "#contact-us"
-bgImage: images/bg-white.png
+
+btnText: Back to the Top
+btnURL: ""
+bgImage: images/titlebg.jpg
