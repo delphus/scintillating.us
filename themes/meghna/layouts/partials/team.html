@@ -32,7 +32,7 @@
                     {{"<!-- member name & designation -->" | safeHTML}}
                     <div class="member-meta">
                         <h4>{{ .name }}</h4>
-                        <span>{{ .designation }}</span>
+                        <p class="designation">{{ .designation }}</p>
                         {{ range .description }}
                         <p>{{ . }}</p>
                         {{ end }}

@@ -6,9 +6,7 @@ teamMember :
     name : Kunal Sharda
     designation : Chief Executive Officer · Visionary
     description :
-      - Experienced through startups, business plan competitions and public speaking
-      - Has multiple certifications in programming across different frameworks
-      - Avidly interested in medical technology and computer science, which fueled his ideas behind Delphus
+       - Skilled in public speaking and interested in the intersection of medical technology and computer science 
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -18,11 +16,7 @@ teamMember :
     name : Kevin Liu
     designation : Chief Technology Officer
     description :
-      - Introduced to Ethereum and the blockchain in 2015
-      - Free software and decentralization advocate
-      - Worked with a Kubernetes cluster used to scale web servers
-      - Experienced in React, Redux, and Solidity
-      
+      - Advocate of decentralization and blockchain technology with experience in React, Redux, and Solidity
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/the-kevin-liu/
@@ -31,9 +25,7 @@ teamMember :
     name : Will Hemond
     designation : Chief Operating Officer
     description :
-      - Has a constant passion for all things technology, math, and science
-      - Heard of cryptocurrency and was initially skeptical, but grew intrigued over time.
-      - Worked in management positions and is ideal for internal operations
+      - Managed teams for nonprofit organization with hundreds of volunteers
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -43,9 +35,7 @@ teamMember :
     name : Aneesh Edara
     designation : VP of Finance
     description :
-      - Substantially interested in blockchain and machine learning
-      - Has experience working with numbers and schema
-      - Has worked on a variety of products, using his skills to create a noticeable difference in one's life
+      - Extensive experience in data science, machine learning through real-world internship
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -54,10 +44,7 @@ teamMember :
     name : Tiger Tian
     designation : Head of Technology
     description :
-      - A technology enthusiast with an aptitude for programming
-      - Experienced with ReactJS and other frameworks
-      - Experienced in managing both large and small teams
-
+      - Experienced in diverse programming frameworks, including ReactJS
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -65,12 +52,9 @@ teamMember :
         
   - image : images/team/Eric.jpg
     name : Eric Sun
-    designation : Marketing and Quality Assurance Manager
+    designation : Manager of Marketing 
     description :
-      - Drawn to computer science by bioinformatics
-      - First hand experience with Clinical Trials
-      - Uses insight to actively judge the needs of a growing company
-
+      - Bioinformatics enthusiast with firsthand experience in clinical studies
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -78,11 +62,9 @@ teamMember :
 
   - image : images/team/Dora.jpg
     name : Dora Xiao
-    designation : Software Engineer
-    description :
-      - Adores all forms of creative design processes from game design to mechanical engineering
-      - Trained in a variety of programming and web languages
-      - Has firsthand experience with research collection projects to understand study demands
+    designation : Software Engineer & Quality Assurance Manager
+    description : 
+      - Passionate for design with firsthand experience with research projects
 
     socialIcon :
       - icon : tf-ion-social-linkedin
