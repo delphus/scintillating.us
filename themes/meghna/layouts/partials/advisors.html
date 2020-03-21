@@ -14,7 +14,7 @@
             {{ range .Site.Data.advisor.advisorMember}}
             {{"<!-- advisor member -->" | safeHTML}}
             <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
-                <div class="team-member" style="height: 550px">
+                <div class="team-member" style="min-height: 550px">
                     <div class="member-photo">
                         {{"<!-- member photo -->" | safeHTML}}
                         <img class="img-responsive" width="100%" src="{{ .image | absURL }}" alt="Meghna">
