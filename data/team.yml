@@ -5,8 +5,7 @@ teamMember :
   - image :  images/team/Kunal.jpg
     name : Kunal Sharda
     designation : Chief Executive Officer · Visionary
-    description :
-       - Skilled in public speaking and interested in the intersection of medical technology and computer science 
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -15,8 +14,7 @@ teamMember :
   - image : images/team/Kevin.jpg
     name : Kevin Liu
     designation : Chief Technology Officer
-    description :
-      - Advocate of decentralization and blockchain technology with experience in React, Redux, and Solidity
+    description : []
     socialIcon :
       - icon : tf-ion-social-linkedin
         link: https://www.linkedin.com/in/the-kevin-liu/
@@ -24,8 +22,7 @@ teamMember :
   - image : images/team/Will.jpg
     name : Will Hemond
     designation : Chief Operating Officer
-    description :
-      - Managed teams for nonprofit organization with hundreds of volunteers
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -34,8 +31,7 @@ teamMember :
   - image : images/team/Aneesh.jpg
     name : Aneesh Edara
     designation : VP of Finance
-    description :
-      - Extensive experience in data science, machine learning through real-world internship
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -43,8 +39,7 @@ teamMember :
   - image : images/team/Tiger.png
     name : Tiger Tian
     designation : Head of Technology
-    description :
-      - Experienced in diverse programming frameworks, including ReactJS
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -53,8 +48,7 @@ teamMember :
   - image : images/team/Eric.jpg
     name : Eric Sun
     designation : Manager of Marketing 
-    description :
-      - Bioinformatics enthusiast with firsthand experience in clinical studies
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin
@@ -63,8 +57,7 @@ teamMember :
   - image : images/team/Dora.jpg
     name : Dora Xiao
     designation : Software Engineer & Quality Assurance Manager
-    description : 
-      - Passionate for design with firsthand experience with research projects
+    description : []
 
     socialIcon :
       - icon : tf-ion-social-linkedin

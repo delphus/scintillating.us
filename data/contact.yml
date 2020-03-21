@@ -2,7 +2,7 @@ enable : true
 heading : Get In
 headingSpan : Touch
 title : Contact details
-content : We are a Boston-based company.
+content : 
 mapLatitude : 42.361145 # Boston
 mapLongitude: -71.057083
 contactDetails :

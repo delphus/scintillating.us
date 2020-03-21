@@ -19,14 +19,14 @@ asSeenIn:
     height: 75
     url: https://www.owltmarket.com/dorahacks-organises-first-blockchain-hackathon-in-india/
 newsItem: 
-- content: "Dude! These 4 high school students (yes high school students!!) started a company for storing medical records using blockchain technology! #FeelingInadequate Check it out at <a href='https://delph.us'>delph.us</a>. #bizofblockchain #BosBlockchainWeek"
-  source: Tarek Tabbara
-  sourceUrl: https://twitter.com/ttabbara/status/989288662687940608
+- content: "#StartupSpotlight19 exhibitor Scintillating is creating @DelphusDApp which utilizes decentralized #ledger technology to verify research with an immutable log & provides data sharing capabilities."
+  source: MIT EF Cambridge 
+  sourceUrl: https://twitter.com/Mitefcmb/status/1136979202924777472
 
-- content: "None other than experienced @jaylstevens calls high school team’s blockchain ideas one of best he’s seen. Project: Using secure blockchain to manage medical research. High praise for kids from Acton Boxborough Regional High School. @bitcoinmktjrnl #bostonblockchainweek."
-  source: Patrick Houston
-  sourceUrl: https://twitter.com/patrickhouston/status/989292813912297472
+- content: "Excited to be back at Harvard presenting Delphus for the annual Healthcare Conference to more than 1,000 attendees. We'll be presenting in a few minutes and we hope to see you there!"
+  source: Kunal Sharda, HBS Healthcare Conference
+  sourceUrl: https://www.linkedin.com/posts/kunal-sharda_digitalhealth-healthcare-harvardbusinessschool-activity-6632320446144532480-Pez2
 
-- content : "Team “Scintillating” of six high school students came first in the Hackathon at Boston! These 16-year-olds created a clinical management system “Delphus” using blockchain tech that allowed patients to see data handoffs by their healthcare providers or researchers."
-  source: doraHacks
-  sourceUrl: https://twitter.com/DoraHacks/status/1045597415120805888
+- content : "Scintillating’s team of software engineers built Cortex; a decentralised Ethereum identity management platform. The web application utilizes Torus to let users prove and validate online identities with social accounts and official websites."
+  source: Torus Labs, ETHWaterloo 2019
+  sourceUrl: https://medium.com/toruslabs/torus-at-eth-waterloo-2019-d82d107328ce
