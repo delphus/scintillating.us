@@ -1,6 +1,2 @@
-# Redirect domain aliases to primary domain
-https://scintillate.me/* https://scintillating.us/:splat 301!
-https://www.scintillate.me/* https://scintillating.us/:splat 301!
-
-# Optional: Redirect default Netlify subdomain to primary domain
-https://scintillating-us.netlify.com/* https://scintillating.us/:splat 301!
+# Redirect all pages to Delphus
+https://scintillating.us/* https://delph.us/ 301!
